@@ -10,7 +10,7 @@ function getAllVals() {
     var num3 = document.getElementById(num3);
     var num4 = document.getElementById(num4);
     var num5 = document.getElementById(num5);
-    num6 = num1+num2+num3+num4+num5*avgNum;
+    num6 === num1+num2+num3+num4+num5*avgNum;
     console.log(num6);
     return num6;
 

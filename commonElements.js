@@ -10,7 +10,7 @@ function vowelCount() {
     var arr2 = [3, 2, 12, 9, 40, 32, 4];
     for (var i = 0; i < arr1.length; i++) {
         for (var j = 0; j < arr2.length; j++) {
-            if (arr1[i] == arr2[j]) {
+            if (arr1[i] === arr2[j]) {
                var test = arr2[j];
             }
         }
