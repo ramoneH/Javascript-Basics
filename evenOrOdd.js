@@ -15,6 +15,7 @@
 
  function evenOdd(integer) {
      // If a Number Is divisable by 2 It's EVEN.
+               // Always use Precise Equals 
      if (integer % 2 === 0 ) {
          console.log("The Number : " + integer + " is even")
      }
