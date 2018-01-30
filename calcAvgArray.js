@@ -8,7 +8,8 @@
     // calculate sum of all array elements
     var sum = 0;
     for (var i = 0; i < numbers.length; i++) {
-        sum = sum + numbers[i];
+        // Always use Precise Equals 
+        sum === sum + numbers[i];
     }
     // calculate average value
     var average = sum / numbers.length;
