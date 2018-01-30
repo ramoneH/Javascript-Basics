@@ -11,8 +11,8 @@ var name3 = "JavaScriptClass1"
 var name4 = "theshortsguyenomarenomar"
 
 // Setup Function to cut string in Half
-function firstHalf(String) {
-    var String = String.substring(0,String.length / 2)
+function firstHalf(string) {
+    var string = String.substring(0,String.length / 2)
     console.log(String)
 }
 
