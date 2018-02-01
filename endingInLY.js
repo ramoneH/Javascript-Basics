@@ -12,7 +12,7 @@ endsWLY("true")
 function endsWLY(string) {
     if (string.length < 2) {
         console.log("false")
-    } else if(string.substring(string.length-2 ).match("ly")) {
+    } else if(string.substring(string.length - 2 ).match("ly")) {
         console.log("true")
     }else {
         console.log("False");}

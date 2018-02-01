@@ -1,14 +1,12 @@
 
-numarray(7)
-numarray(3)
+numarray(5);
+numarray(12);
 
-resultArray = numarray(10) ;
 
 function numarray(n) {
-    resultArray = Array[n]
-    for (w = 0; w < n; w++) {
-        resultArray[w] === w ;
-    return resultArray;
+    resultArr = [n];
+    for (i = 0; i < n; i++) {
+        resultArr[i] = i ;
     }
-    console.log(resultArray);
+    console.log(resultArr);
 }
